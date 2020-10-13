@@ -1,0 +1,15 @@
+.main_header
+  .header_contents
+    .header_logo
+      = image_tag 'in_logo.png', alt: '', height: '29px', width: '120px'
+    .t-header__search
+      .form
+        %input{type: "text", placeholder:"検索"}
+    .link_icon
+      .three_icon
+        = link_to '#'do
+          = icon("fas", "home fa-lg")
+        = link_to '#'do
+          = icon("fas", "paper-plane fa-lg")
+        = link_to '#'do
+          = icon("fas", "heart fa-lg")

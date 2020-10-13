@@ -1,0 +1,34 @@
+.main_header {
+  align-items: center;
+  height: 54px;
+  border-bottom: 5px solid #f5f5f5;
+    .header_contents {
+      display: flex;
+      justify-content: center;
+      line-height: 54px;
+      width: 100%;
+      .header_logo {
+        display: block;
+        width: 360px;
+        margin-top: 7px;
+      }
+      .t-header__seach {
+        .form {
+          background-color: #fafafa;
+        }
+      }
+      .link_icon {
+        width: 360px;
+          .three_icon {
+            float: right;
+              a{
+                text-decoration: none;
+                margin-left: 22px;
+                color: #000000;
+              }
+          }
+        
+      }
+      
+    }
+}
