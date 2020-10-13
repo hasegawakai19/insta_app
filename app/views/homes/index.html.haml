@@ -1,2 +1,19 @@
 = render 'header/header'
 
+.main
+  .section
+    .post
+      .section_user_header
+        .user_icon
+          = link_to "#" do
+            = image_tag 'GPTempDownload 7.JPG', alt: '', height: '32px', width: '32px', class: 'userIcon'
+        .user_id
+          hasekai01
+      .section_main
+        .main_image
+          = image_tag 'GPTempDownload 7.JPG', alt: '', height: '614px', width: '614px', class: ''
+      .post_icon
+        = icon("far", "heart fa-lg")
+        = icon("far", "comments fa-lg",class: 'p-icon')
+        = icon("far", "paper-plane fa-lg",class: 'p-icon')
+        
